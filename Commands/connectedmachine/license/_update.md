@@ -36,3 +36,25 @@ Update operation to update a license.
     ```bash
         connectedmachine license update --name licenseName --resource-group myResourceGroup --license-type 'ESU' --state 'Deactivated' --target 'Windows Server 2012' --edition 'Datacenter' --type 'pCore' --processors 16 --subscription mySubscription
     ```
+
+### [2025-09-16-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL2xpY2Vuc2VzL3t9/2025-09-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/licenses/{} 2025-09-16-preview -->
+
+#### examples
+
+- Sample command for license update
+    ```bash
+        connectedmachine license update --name licenseName --resource-group myResourceGroup --license-type 'ESU' --state 'Deactivated' --target 'Windows Server 2012' --edition 'Datacenter' --type 'pCore' --processors 16 --subscription mySubscription
+    ```
+
+### [2026-06-16-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL2xpY2Vuc2VzL3t9/2026-06-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/licenses/{} 2026-06-16-preview -->
+
+#### examples
+
+- Sample command for license update
+    ```bash
+        connectedmachine license update --name licenseName --resource-group myResourceGroup --license-type 'ESU' --state 'Deactivated' --target 'Windows Server 2012' --edition 'Datacenter' --type 'pCore' --processors 16 --subscription mySubscription
+    ```

@@ -7,11 +7,17 @@ Manage Azure Arc-Enabled Server.
 - [extension](/Commands/connectedmachine/extension/readme.md)
 : Manage a VM extension on an Azure Arc-Enabled Server.
 
+- [identity](/Commands/connectedmachine/identity/readme.md)
+: Manage Identity
+
 - [license](/Commands/connectedmachine/license/readme.md)
 : Manage ESU license on an Azure Arc-Enabled Server.
 
 - [license-profile](/Commands/connectedmachine/license-profile/readme.md)
 : Manages all Pay-As-You-Go licenses for an Azure Arc-Enabled Server.
+
+- [network-profile](/Commands/connectedmachine/network-profile/readme.md)
+: Manage Network Profile
 
 - [private-endpoint-connection](/Commands/connectedmachine/private-endpoint-connection/readme.md)
 : Manage private endpoint connection with an Azure Arc-Enabled Server.
@@ -44,6 +50,9 @@ Manage Azure Arc-Enabled Server.
 
 - [list](/Commands/connectedmachine/_list.md)
 : List all Azure Arc-Enabled Servers in the specified resource group.
+
+- [list-by-sub](/Commands/connectedmachine/_list-by-sub.md)
+: List all the hybrid machines in the specified subscription. Use the nextLink property in the response to get the next page of hybrid machines.
 
 - [show](/Commands/connectedmachine/_show.md)
 : Get information about the model view or the instance view of an Azure Arc-Enabled Server.

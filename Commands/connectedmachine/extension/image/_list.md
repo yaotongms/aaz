@@ -58,3 +58,25 @@ List all Extension versions based on location, publisher, extensionType.
     ```bash
         connectedmachine extension image list --location EastUS --publisher microsoft.azure.monitor --extension-type azuremonitorlinuxagent
     ```
+
+### [2025-09-16-preview](/Resources/mgmt-plane/L3Byb3ZpZGVycy9taWNyb3NvZnQuaHlicmlkY29tcHV0ZS9sb2NhdGlvbnMve30vcHVibGlzaGVycy97fS9leHRlbnNpb250eXBlcy97fS92ZXJzaW9ucw==/2025-09-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /providers/microsoft.hybridcompute/locations/{}/publishers/{}/extensiontypes/{}/versions 2025-09-16-preview -->
+
+#### examples
+
+- Sample command for extension image list
+    ```bash
+        connectedmachine extension image list --publisher microsoft.azure.monitor --extension-type azuremonitorlinuxagent --location eastus
+    ```
+
+### [2026-06-16-preview](/Resources/mgmt-plane/L3Byb3ZpZGVycy9taWNyb3NvZnQuaHlicmlkY29tcHV0ZS9sb2NhdGlvbnMve30vcHVibGlzaGVycy97fS9leHRlbnNpb250eXBlcy97fS92ZXJzaW9ucw==/2026-06-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /providers/microsoft.hybridcompute/locations/{}/publishers/{}/extensiontypes/{}/versions 2026-06-16-preview -->
+
+#### examples
+
+- Sample command for extension image list
+    ```bash
+        connectedmachine extension image list --publisher microsoft.azure.monitor --extension-type azuremonitorlinuxagent --location eastus
+    ```

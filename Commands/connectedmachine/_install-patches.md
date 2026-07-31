@@ -47,3 +47,25 @@ Install patches on an Azure Arc-Enabled Server.
     ```bash
         connectedmachine install-patches --resource-group MyResourceGroup --name MyMachine --maximum-duration PT4H --reboot-setting IfRequired --windows-parameters "{"classificationsToInclude": ["Critical", "Security"]}"
     ```
+
+### [2025-09-16-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL21hY2hpbmVzL3t9L2luc3RhbGxwYXRjaGVz/2025-09-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/machines/{}/installpatches 2025-09-16-preview -->
+
+#### examples
+
+- Sample command for install-patches
+    ```bash
+        connectedmachine install-patches --resource-group MyResourceGroup --name MyMachine --maximum-duration PT4H --reboot-setting IfRequired --windows-parameters "{"classificationsToInclude": ["Critical", "Security"]}"
+    ```
+
+### [2026-06-16-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL21hY2hpbmVzL3t9L2luc3RhbGxwYXRjaGVz/2026-06-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/machines/{}/installpatches 2026-06-16-preview -->
+
+#### examples
+
+- Sample command for install-patches
+    ```bash
+        connectedmachine install-patches --resource-group MyResourceGroup --name MyMachine --maximum-duration PT4H --reboot-setting IfRequired --windows-parameters "{"classificationsToInclude": ["Critical", "Security"]}"
+    ```

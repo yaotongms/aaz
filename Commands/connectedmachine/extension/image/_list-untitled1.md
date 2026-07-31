@@ -1,0 +1,13 @@
+# [Command] _connectedmachine extension image list-untitled1_
+
+List all Extension versions based on location, publisher, extensionType
+
+## Versions
+
+### [2025-09-16-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL2xvY2F0aW9ucy97fS9wdWJsaXNoZXJzL3t9L2V4dGVuc2lvbnR5cGVzL3t9L3ZlcnNpb25z/2025-09-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.hybridcompute/locations/{}/publishers/{}/extensiontypes/{}/versions 2025-09-16-preview -->
+
+### [2026-06-16-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL2xvY2F0aW9ucy97fS9wdWJsaXNoZXJzL3t9L2V4dGVuc2lvbnR5cGVzL3t9L3ZlcnNpb25z/2026-06-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.hybridcompute/locations/{}/publishers/{}/extensiontypes/{}/versions 2026-06-16-preview -->

@@ -47,3 +47,25 @@ Delete an Azure Arc-Enabled Server.
     ```bash
         connectedmachine delete --name myMachine --resource-group myResourceGroup
     ```
+
+### [2025-09-16-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL21hY2hpbmVzL3t9/2025-09-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/machines/{} 2025-09-16-preview -->
+
+#### examples
+
+- Sample command for delete
+    ```bash
+        connectedmachine delete --name myMachine --resource-group myResourceGroup
+    ```
+
+### [2026-06-16-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL21hY2hpbmVzL3t9/2026-06-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/machines/{} 2026-06-16-preview -->
+
+#### examples
+
+- Sample command for delete
+    ```bash
+        connectedmachine delete --name myMachine --resource-group myResourceGroup
+    ```

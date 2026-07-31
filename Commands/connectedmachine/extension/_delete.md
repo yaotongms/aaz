@@ -47,3 +47,25 @@ Delete an extension.
     ```bash
         connectedmachine extension delete --name myName --machine-name myMachine --resource-group myResourceGroup
     ```
+
+### [2025-09-16-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL21hY2hpbmVzL3t9L2V4dGVuc2lvbnMve30=/2025-09-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/machines/{}/extensions/{} 2025-09-16-preview -->
+
+#### examples
+
+- Sample command for extension delete
+    ```bash
+        connectedmachine extension delete --name myName --machine-name myMachine --resource-group myResourceGroup
+    ```
+
+### [2026-06-16-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL21hY2hpbmVzL3t9L2V4dGVuc2lvbnMve30=/2026-06-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/machines/{}/extensions/{} 2026-06-16-preview -->
+
+#### examples
+
+- Sample command for extension delete
+    ```bash
+        connectedmachine extension delete --name myName --machine-name myMachine --resource-group myResourceGroup
+    ```

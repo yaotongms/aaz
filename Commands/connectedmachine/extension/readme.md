@@ -7,6 +7,12 @@ Manage a VM extension on an Azure Arc-Enabled Server.
 - [image](/Commands/connectedmachine/extension/image/readme.md)
 : Manage VM extension metadata available for Azure Arc-Enabled Servers.
 
+- [publisher](/Commands/connectedmachine/extension/publisher/readme.md)
+: Manage Publisher
+
+- [type](/Commands/connectedmachine/extension/type/readme.md)
+: Manage Extension Type
+
 ## Commands
 
 - [create](/Commands/connectedmachine/extension/_create.md)

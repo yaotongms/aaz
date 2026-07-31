@@ -18,3 +18,25 @@ List operation to get all license profiles of a non-Azure machine
     ```bash
         connectedmachine license-profile list --resource-group myResourceGroup --machine-name myMachine
     ```
+
+### [2025-09-16-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL21hY2hpbmVzL3t9L2xpY2Vuc2Vwcm9maWxlcw==/2025-09-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/machines/{}/licenseprofiles 2025-09-16-preview -->
+
+#### examples
+
+- List all License Profiles
+    ```bash
+        connectedmachine license-profile list --resource-group myResourceGroup --machine-name myMachine
+    ```
+
+### [2026-06-16-preview](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL21hY2hpbmVzL3t9L2xpY2Vuc2Vwcm9maWxlcw==/2026-06-16-preview.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/machines/{}/licenseprofiles 2026-06-16-preview -->
+
+#### examples
+
+- List all License Profiles
+    ```bash
+        connectedmachine license-profile list --resource-group myResourceGroup --machine-name myMachine
+    ```
