@@ -18,3 +18,14 @@ List operation to get all licenses of a non-Azure machine
     ```bash
         connectedmachine license list-by-rg --resource-group myResourceGroup --subscription mySubscription
     ```
+
+### [2026-07-15](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL2xpY2Vuc2Vz/2026-07-15.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/licenses 2026-07-15 -->
+
+#### examples
+
+- az connectedmachine license list-by-rg
+    ```bash
+        connectedmachine license list-by-rg --resource-group myResourceGroup --subscription mySubscription
+    ```

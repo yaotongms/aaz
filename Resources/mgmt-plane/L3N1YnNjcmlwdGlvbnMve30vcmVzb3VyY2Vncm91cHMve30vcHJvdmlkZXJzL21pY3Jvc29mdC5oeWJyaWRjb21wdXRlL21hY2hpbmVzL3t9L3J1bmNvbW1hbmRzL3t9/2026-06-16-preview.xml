@@ -99,7 +99,7 @@
                       <item type="@Runcommandinputparameter_read"/>
                     </prop>
                     <prop readOnly="True" type="string" name="provisioningState"/>
-                    <prop type="string" name="runAsPassword" secret="True"/>
+                    <prop type="string" name="runAsPassword"/>
                     <prop type="string" name="runAsUser"/>
                     <prop type="object" name="source">
                       <prop type="string" name="commandId"/>
@@ -296,7 +296,7 @@
         <arg type="string" var="$resource.properties.source.scriptUri" options="script-uri" group="Source">
           <help short="Specifies the script download location. It can be either SAS URI of an Azure storage blob with read access or public URI."/>
         </arg>
-        <arg type="object" var="$resource.properties.source.scriptUriManagedIdentity" options="script-uri-managed-identity script-uri-managed-id" group="Source" cls="RuncommandmanagedidentityCreateOrUpdate_create">
+        <arg type="object" var="$resource.properties.source.scriptUriManagedIdentity" options="script-uri-managed-identity script-uri-id" group="Source" cls="RuncommandmanagedidentityCreateOrUpdate_create">
           <help short="User-assigned managed identity that has access to scriptUri in case of Azure storage blob. Use an empty object in case of system-assigned identity. Make sure the Azure storage blob exists, and managed identity has been given access to blob's container with 'Storage Blob Data Reader' role assignment. In case of user-assigned identity, make sure you add it under VM's identity. For more info on managed identity and Run Command, refer https://aka.ms/ManagedIdentity and https://aka.ms/RunCommandManaged."/>
           <arg type="string" var="@RuncommandmanagedidentityCreateOrUpdate_create.clientId" options="client-id">
             <help short="Client Id (GUID value) of the user-assigned managed identity. ObjectId should not be used if this is provided."/>
@@ -354,7 +354,7 @@
                     <prop type="array<@RuncommandinputparameterCreateOrUpdate_create>" name="protectedParameters" arg="$resource.properties.protectedParameters">
                       <item type="@RuncommandinputparameterCreateOrUpdate_create"/>
                     </prop>
-                    <prop type="string" name="runAsPassword" arg="$resource.properties.runAsPassword" secret="True"/>
+                    <prop type="string" name="runAsPassword" arg="$resource.properties.runAsPassword"/>
                     <prop type="string" name="runAsUser" arg="$resource.properties.runAsUser"/>
                     <prop type="object" name="source">
                       <prop type="string" name="commandId" arg="$resource.properties.source.commandId"/>
@@ -435,7 +435,7 @@
                       <item type="@Runcommandinputparameter_read"/>
                     </prop>
                     <prop readOnly="True" type="string" name="provisioningState"/>
-                    <prop type="string" name="runAsPassword" secret="True"/>
+                    <prop type="string" name="runAsPassword"/>
                     <prop type="string" name="runAsUser"/>
                     <prop type="object" name="source">
                       <prop type="string" name="commandId"/>
@@ -657,7 +657,7 @@
                       <item type="@Runcommandinputparameter_read"/>
                     </prop>
                     <prop readOnly="True" type="string" name="provisioningState"/>
-                    <prop type="string" name="runAsPassword" secret="True"/>
+                    <prop type="string" name="runAsPassword"/>
                     <prop type="string" name="runAsUser"/>
                     <prop type="object" name="source">
                       <prop type="string" name="commandId"/>
@@ -732,7 +732,7 @@
                 <prop type="array<@RuncommandinputparameterCreateOrUpdate_update>" name="protectedParameters" arg="$resource.properties.protectedParameters">
                   <item type="@RuncommandinputparameterCreateOrUpdate_update"/>
                 </prop>
-                <prop type="string" name="runAsPassword" arg="$resource.properties.runAsPassword" secret="True"/>
+                <prop type="string" name="runAsPassword" arg="$resource.properties.runAsPassword"/>
                 <prop type="string" name="runAsUser" arg="$resource.properties.runAsUser"/>
                 <prop type="object" name="source">
                   <prop type="string" name="commandId" arg="$resource.properties.source.commandId"/>
@@ -838,7 +838,7 @@
                       <item type="@Runcommandinputparameter_read"/>
                     </prop>
                     <prop readOnly="True" type="string" name="provisioningState"/>
-                    <prop type="string" name="runAsPassword" secret="True"/>
+                    <prop type="string" name="runAsPassword"/>
                     <prop type="string" name="runAsUser"/>
                     <prop type="object" name="source">
                       <prop type="string" name="commandId"/>

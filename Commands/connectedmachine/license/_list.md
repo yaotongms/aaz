@@ -58,3 +58,14 @@ Get all licenses of a non-Azure machine
     ```bash
         connectedmachine license list --subscription mySubscription
     ```
+
+### [2026-07-15](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL2xpY2Vuc2Vz/2026-07-15.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/providers/microsoft.hybridcompute/licenses 2026-07-15 -->
+
+#### examples
+
+- Sample command for license list
+    ```bash
+        connectedmachine license list --subscription mySubscription
+    ```

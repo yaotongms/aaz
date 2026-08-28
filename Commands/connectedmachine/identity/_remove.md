@@ -10,7 +10,23 @@ Remove the user or system managed identities.
 
 #### examples
 
-- Sample command for connectedmachine identity remove
+- Example command for identity remove
     ```bash
-        connectedmachine identity remove --resource-group myResourceGroup --machine-name myMachine --user-assigned /subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/myResourceGroup/providers/Microsoft.ManagedIdentity/userAssignedIdentities/myIdentity
+        connectedmachine identity remove --resource-group myResourceGroup --machine-name myMachine
+    ```
+
+### [2026-07-15](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL21hY2hpbmVzL3t9/2026-07-15.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/machines/{} 2026-07-15 identity -->
+
+#### examples
+
+- sample command for identity remove
+    ```bash
+        connectedmachine identity remove --resource-group myResourceGroup --machine-name myMachine
+    ```
+
+- Sample command for identity remove
+    ```bash
+        connectedmachine identity remove --resource-group myResourceGroup --machine-name myMachine
     ```

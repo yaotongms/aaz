@@ -47,3 +47,14 @@ Get all the run commands of a non-Azure machine.
     ```bash
         connectedmachine run-command list --resource-group myResourceGroup --machine-name myMachine --subscription mySubscription
     ```
+
+### [2026-07-15](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL21hY2hpbmVzL3t9L3J1bmNvbW1hbmRz/2026-07-15.xml) **Preview**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/machines/{}/runcommands 2026-07-15 -->
+
+#### examples
+
+- Sample command for run-command list
+    ```bash
+        connectedmachine run-command list --resource-group myResourceGroup --machine-name myMachine --subscription mySubscription
+    ```

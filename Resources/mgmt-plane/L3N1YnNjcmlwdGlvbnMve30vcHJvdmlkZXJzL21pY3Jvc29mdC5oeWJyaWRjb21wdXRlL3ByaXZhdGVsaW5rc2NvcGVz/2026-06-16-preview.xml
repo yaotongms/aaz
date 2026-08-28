@@ -10,6 +10,12 @@
         <arg type="ResourceGroupName" var="$Path.resourceGroupName" options="resource-group g" idPart="resource_group"/>
         <arg type="SubscriptionId" var="$Path.subscriptionId" options="subscription" required="True" idPart="subscription"/>
       </argGroup>
+      <condition var="$Condition_HybridComputePrivateLinkScopes_ListByResourceGroup">
+        <operator type="and">
+          <operator type="hasValue" arg="$Path.resourceGroupName"/>
+          <operator type="hasValue" arg="$Path.subscriptionId"/>
+        </operator>
+      </condition>
       <condition var="$Condition_HybridComputePrivateLinkScopes_List">
         <operator type="and">
           <operator type="hasValue" arg="$Path.subscriptionId"/>
@@ -18,16 +24,13 @@
           </operator>
         </operator>
       </condition>
-      <condition var="$Condition_HybridComputePrivateLinkScopes_ListByResourceGroup">
-        <operator type="and">
-          <operator type="hasValue" arg="$Path.resourceGroupName"/>
-          <operator type="hasValue" arg="$Path.subscriptionId"/>
-        </operator>
-      </condition>
-      <operation when="$Condition_HybridComputePrivateLinkScopes_List" operationId="HybridComputePrivateLinkScopes_List">
-        <http path="/subscriptions/{subscriptionId}/providers/Microsoft.HybridCompute/privateLinkScopes">
+      <operation when="$Condition_HybridComputePrivateLinkScopes_ListByResourceGroup" operationId="HybridComputePrivateLinkScopes_ListByResourceGroup">
+        <http path="/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes">
           <request method="get">
             <path>
+              <param type="string" name="resourceGroupName" arg="$Path.resourceGroupName" required="True">
+                <format pattern="^[-\w\._\(\)]+$" maxLength="90" minLength="1"/>
+              </param>
               <param type="uuid" name="subscriptionId" arg="$Path.subscriptionId" required="True">
                 <format minLength="1"/>
               </param>
@@ -135,13 +138,10 @@
           </response>
         </http>
       </operation>
-      <operation when="$Condition_HybridComputePrivateLinkScopes_ListByResourceGroup" operationId="HybridComputePrivateLinkScopes_ListByResourceGroup">
-        <http path="/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.HybridCompute/privateLinkScopes">
+      <operation when="$Condition_HybridComputePrivateLinkScopes_List" operationId="HybridComputePrivateLinkScopes_List">
+        <http path="/subscriptions/{subscriptionId}/providers/Microsoft.HybridCompute/privateLinkScopes">
           <request method="get">
             <path>
-              <param type="string" name="resourceGroupName" arg="$Path.resourceGroupName" required="True">
-                <format pattern="^[-\w\._\(\)]+$" maxLength="90" minLength="1"/>
-              </param>
               <param type="uuid" name="subscriptionId" arg="$Path.subscriptionId" required="True">
                 <format minLength="1"/>
               </param>

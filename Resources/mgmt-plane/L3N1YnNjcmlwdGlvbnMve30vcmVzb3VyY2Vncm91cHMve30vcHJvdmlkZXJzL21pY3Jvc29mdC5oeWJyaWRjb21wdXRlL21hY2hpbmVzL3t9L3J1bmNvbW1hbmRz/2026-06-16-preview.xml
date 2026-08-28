@@ -99,7 +99,7 @@
                           <item type="@Runcommandinputparameter_read"/>
                         </prop>
                         <prop readOnly="True" type="string" name="provisioningState"/>
-                        <prop type="string" name="runAsPassword" secret="True"/>
+                        <prop type="string" name="runAsPassword"/>
                         <prop type="string" name="runAsUser"/>
                         <prop type="object" name="source">
                           <prop type="string" name="commandId"/>

@@ -71,3 +71,14 @@ List all Azure Arc-Enabled Servers in the specified resource group.
     ```bash
         connectedmachine list --resource-group myResourceGroup
     ```
+
+### [2026-07-15](/Resources/mgmt-plane/L3N1YnNjcmlwdGlvbnMve30vcmVzb3VyY2Vncm91cHMve30vcHJvdmlkZXJzL21pY3Jvc29mdC5oeWJyaWRjb21wdXRlL21hY2hpbmVz/2026-07-15.xml) **Stable**
+
+<!-- mgmt-plane /subscriptions/{}/resourcegroups/{}/providers/microsoft.hybridcompute/machines 2026-07-15 -->
+
+#### examples
+
+- Sample command for list
+    ```bash
+        connectedmachine list --resource-group myResourceGroup
+    ```
